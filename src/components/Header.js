@@ -18,7 +18,7 @@ const Header = () => {
 
     return (
         <div className='Header'>
-            <img className='logo' src={Logo} />
+            <img className='logo' src={Logo} alt='logo'/>
 
             <div className='rightContainer'>
                 <select className='dropdown'>

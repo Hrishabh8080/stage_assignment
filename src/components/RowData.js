@@ -38,7 +38,7 @@ const RowData = ({title}) => {
             <div className='cardContainer'>
                 {data && data.map(item => (
                     <div className="card" key={item._id}>
-                        <img src={screenWidth > 768 ? rootUrlHorizontal + '/' + item.horizontal : rootUrlVertical + '/' + item.vertical} alt="Image" />
+                        <img src={screenWidth > 768 ? rootUrlHorizontal + '/' + item.horizontal : rootUrlVertical + '/' + item.vertical} alt="thumnail" />
                     </div>
                 ))}
             </div>
