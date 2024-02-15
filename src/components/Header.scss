@@ -1,0 +1,37 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 30px;
+
+    .logo {
+        width: 60px;
+    }
+
+    .rightContainer {
+        display: flex;
+        align-items: center;
+
+        .dropdown {
+            margin-right: 20px;
+            border-radius: 10px;
+            background: transparent;
+            color: white;
+
+            padding: 10px;
+
+            &:focus {
+                outline: none;
+                border-color: white;
+                background: transparent;
+                color: white;
+
+                
+                option {
+                    background: transparent;
+                    color: white;
+                }
+            }
+        }
+    }
+}

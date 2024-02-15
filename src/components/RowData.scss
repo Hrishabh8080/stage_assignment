@@ -1,0 +1,40 @@
+.rowData {
+    margin-bottom: 30px;
+    .heading {
+        margin: 0 30px;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    .cardContainer {
+        display: flex;
+        margin-top: 15px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        column-gap: 20px;
+        padding: 0 30px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .card {
+            min-width: 250px;
+            border: 3px solid #BFA100;
+            border-radius: 8px;
+            overflow: hidden;
+            @media screen and (max-width:768px) {
+            min-width: 120px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+    }
+}
